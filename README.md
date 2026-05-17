@@ -2,6 +2,8 @@
 
 Compact the current agent conversation into a handoff document so a fresh session can continue the work with the right context.
 
+[中文 README](README.zh-CN.md)
+
 `handoff-skill` is a small standalone project that keeps the skill protocol in [SKILL.md](SKILL.md), with ready-to-reference entrypoints for both Codex and Claude Code.
 
 ## Skill Integration
