@@ -4,6 +4,10 @@ Compact the current agent conversation into a handoff document so a fresh sessio
 
 [中文 README](README.zh-CN.md)
 
+Use this when a Codex or Claude Code session needs to preserve goal, constraints,
+changed files, verification state, open questions, and next actions for another
+LLM agent.
+
 `handoff-skill` is a small standalone project that keeps the skill protocol in [SKILL.md](SKILL.md), with ready-to-reference entrypoints for both Codex and Claude Code.
 
 ## Skill Integration
