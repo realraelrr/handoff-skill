@@ -16,14 +16,12 @@ Use `.state/` as agent operational workspace. Do not treat handoff files as prod
 
 The handoff must include:
 
-- Current goal and why it matters
-- Current state, including what is done and what remains
-- Important files, artifacts, branches, commands, or URLs
-- Changes made in this session
-- Verification run, with exact commands and pass/fail signals
-- Open decisions, assumptions, blockers, and risks
-- Concrete next steps, starting with the next command or file to inspect
-- Suggested skills for the next session, if any
+- Goal
+- Current state, including done, remaining, and only the key files/artifacts needed to continue
+- What worked
+- What didn't work or remains blocked
+- Verification, with exact commands and pass/fail signals
+- Next steps, starting with the next concrete action
 
 Keep it concise. Reference existing plans, PRDs, ADRs, issues, commits, diffs, or other artifacts by path or URL instead of duplicating them.
 
